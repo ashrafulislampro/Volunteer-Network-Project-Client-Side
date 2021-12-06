@@ -10,7 +10,7 @@ const Events = (props) => {
     history.push(`/eventsDetails/${id}`);
   }
   const handleDeleteEvent = (id, event) => {
-      fetch('http://localhost:5055/deleteEvent/'+id,{
+      fetch('https://glacial-chamber-71006.herokuapp.com/deleteEvent/'+id,{
         method: 'DELETE',
       })
       .then(res => res.json())

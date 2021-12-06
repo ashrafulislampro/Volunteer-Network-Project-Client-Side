@@ -6,7 +6,7 @@ const EventsDetails = () => {
   const { id } = useParams();
   const [events, setEvents] = useState({});
   useEffect(() => {
-    fetch("http://localhost:5055/event/" + id)
+    fetch("https://glacial-chamber-71006.herokuapp.com/event/" + id)
       .then((res) => res.json())
       .then((data) => setEvents(data));
   }, [id]);

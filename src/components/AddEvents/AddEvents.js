@@ -21,7 +21,7 @@ const AddEvents = () => {
       description: data.description,
       imageURL: imageURL,
     };
-    fetch("http://localhost:5055/addEvent", {
+    fetch("https://glacial-chamber-71006.herokuapp.com/addEvent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(eventData),
