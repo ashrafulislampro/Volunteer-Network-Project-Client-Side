@@ -1,0 +1,7 @@
+.img-container{
+          /* column-gap: -10px; */
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          margin: 15px auto;
+}

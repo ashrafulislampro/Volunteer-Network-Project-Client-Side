@@ -1,0 +1,32 @@
+
+.event_content {
+  width: 1070px;
+  height: 650px;
+  padding: 40px;
+  background: rgb(233, 233, 233);
+}
+.add_events {
+  justify-content: center;
+  margin: auto;
+  width: 900px;
+  height: 300px;
+  border-radius: 15px;
+  background: rgb(248, 248, 248);
+}
+label {
+  display: inline-block;
+  margin: 0 40px;
+  
+}
+input {
+  width: 350px;
+  height: 35px;
+}
+.submit_field{
+           float: right;
+           width: 200px;
+           background-color: rgb(228, 130, 113);
+           border-style: none;
+           margin-right: 50px;
+           border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.home_content{
+          width: 1300px;
+          justify-content: center ;
+          text-align: center;
+          margin: 0 auto;
+}
+.bt {
+  margin-top: -5px !important;
+}
+.form_field {
+  text-align: center;
+  margin: 60px auto;
+}
+.form_field input {
+  margin-top: 20px;
+  width: 350px;
+  height: 37px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

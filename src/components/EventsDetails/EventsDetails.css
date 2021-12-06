@@ -1,0 +1,19 @@
+.event-details{
+          display: flex;
+          width: 100%;
+          align-items: center;
+          height: 190px;
+          border-radius: 10px;
+          background-color: rgb(243, 243, 243);
+}
+.event_field{
+   float: right !important;
+   margin: auto; 
+}
+.event_field button{
+          width: 200px;
+          height: 35px;
+          border-style: none;
+          border-radius: 10px;
+          background: rgb(189, 189, 189);
+}
